@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Students can register for JEE exam from this website">
+    <title>JEE Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Registeration form :- JEE 2025 (Joint Enterance Examination)</h1>
+
+    <h2>Personal details</h2>
+
+    <form action="post">
+
+    <div>
+        <label for="firstname">Enter the candidate's first name</label>
+        <br>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" required autofocus>
+
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="middlename">Enter the candidate's middle name</label>
+        <br>
+        <input type="text" name="middlename" id="middlename" placeholder="Middle Name" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="lastname">Enter the candidate's last name</label>
+        <br>
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">Enter your E-mail</label>
+        <br>
+        <input type="text" name="email" id="email" placeholder="abc@gmail.com" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="number">Enter your contact number</label>
+        <br>
+        <input type="text" name="number" id="number" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="dob">Date of birth</label>
+        <br>
+        <input type="text" name="Date of birth" id="dob" placeholder="dd-mm-yy" required>
+    </div>
+
+    <br>
+
+    <div>
+
+        Select gender: 
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male" required>
+    
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="cateagory">Select Cateagory</label>
+        <select name="cateagory" id="cateagory" required>
+            <option value="General">General</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="NT">NT</option>
+        </select>
+    </div>
+
+    <br>
+
+    <h2>Address details</h2>
+    
+    <div> 
+        <label for="state">Select state</label>
+        <select name="state" id="state" required>
+            <option value="">Andhra Pradesh</option>
+            <option value="">Arunachal Pradesh</option>
+            <option value="">Assam</option>
+            <option value="">Bihar</option>
+            <option value="">Chhattisgarh</option>
+            <option value="">Goa</option>
+            <option value="">Gujarat</option>
+            <option value="">Haryana</option>
+            <option value="">Himachal Pradesh</option>
+            <option value="">Jharkhand</option>
+            <option value="">Karnataka</option>
+            <option value="">Kerala</option>
+            <option value="">Madhya Pradesh</option>
+            <option value="">Maharashtra</option>
+            <option value="">Manipur</option>
+            <option value="">Meghalaya</option>
+            <option value="">Mizoram</option>
+            <option value="">Nagaland</option>
+            <option value="">Odisha</option>
+            <option value="">Punjab</option>
+            <option value="">Rajasthan</option>
+            <option value="">Sikkim</option>
+            <option value="">Tamil Nadu</option>
+            <option value="">Telangana</option>
+            <option value="">Tripura</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">Uttarakhand</option>
+            <option value="">West Bengal</option>
+        </select>
+    </div>
+
+    <br>
+    
+    <div>
+        <label for="district">Select district</label>
+        <select name="district" id="district" required>
+            <option value="">Ahmednagar</option>
+            <option value="">Akola</option>
+            <option value="">Amravati</option>
+            <option value="">Aurangabad</option>
+            <option value="">Beed</option>
+            <option value="">Bhandara</option>
+            <option value="">Buldhana</option>
+            <option value="">Chandrapur</option>
+            <option value="">Dhule</option>
+            <option value="">Gadchiroli</option>
+            <option value="">Gondia</option>
+            <option value="">Hingoli</option>
+            <option value="">Jalgaon</option>
+            <option value="">Jalna</option>
+            <option value="">Kolhapur</option>
+            <option value="">Latur</option>
+            <option value="">Mumbai City</option>
+            <option value="">Mumbai Suburban</option>
+            <option value="">Nagpur</option>
+            <option value="">Nanded</option>
+            <option value="">Nandurbar</option>
+            <option value="">Nashik</option>
+            <option value="">Osmanabad</option>
+            <option value="">Palghar</option>
+            <option value="">Parbhani</option>
+            <option value="">Pune</option>
+            <option value="">Raigad</option>
+            <option value="">Ratnagiri</option>
+            <option value="">Sangli</option>
+            <option value="">Satara</option>
+            <option value="">Sindhudurg</option>
+            <option value="">Solapur</option>
+            <option value="">Thane</option>
+            <option value="">Wardha</option>
+            <option value="">Washim</option>
+            <option value="">Yavatmal</option>
+        </select>
+    </div>
+    
+    <br>
+
+    <div>
+        <label for="addr">Enter full address</label>
+        <br>
+        <textarea name="address" id="addr" cols="30" rows="5" required></textarea>
+    </div>
+
+    <div>
+        <h3>Your Strengths in Physics (so that we will put more questions of those topics) :- </h3>
+       
+        <input type="checkbox" id="units" name="Units and measurements" value="Units and measurements">
+        <label for="units">Units and measurements</label>
+    <br>
+
+        <input type="checkbox" name="basic maths" id="bm" value="basic maths">
+        <label for="bm">Basic Mathematics</label>
+    <br>
+        
+    <input type="checkbox" name="Motion in a straight line" id="motion1d" value="Motion in a straight line">
+    <label for="motion1d">Motion in a straight line</label>
+
+    <br>
+
+        <input type="checkbox" name="Motion in a plane" id="plane" value="motion in a plane">
+        <label for="plane">Motion in a plane</label>
+    <br>
+
+        <input type="checkbox" name="laws of motion" id="nlm" value="laws of motion">
+        <label for="nlm">Laws of Motion</label>
+    <br>
+
+        <input type="checkbox" name="all chapters" id="all" value="all chapters" equired>
+        <label for="all">All the chapters</label>
+    </div>
+
+    <br>
+
+    <div>
+        <h3>Your desired rank</h3>
+        <select name="rank" required>
+            <option value="AIR 1">1</option>
+            <option value="AIR 10">10</option>
+            <option value="AIR 100">100</option>
+            <option value="AIR 1000">1000</option>
+            <option value="AIR 10000">10000</option>
+            <option value="AIR 100000">100000</option>
+            <option value="I want to fail">I want to fail</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <h3>Purchase your desired rank</h3>
+        Price : 10000 INR
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="card">Enter card number</label>
+        <br>
+        <input type="text" name="card" id="card" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+    </div>
+
+    <br>
+
+    <div>
+
+        <label for="cvv">Enter cvv</label>
+        <br>
+        <input type="text" name="cvv" id="cvv" placeholder="***" required>
+    </div>
+
+    <br>
+  <input type="submit" value="Submit and proceed to payment" name="submit" id="submit">
+    
+</form>
+
+</body>
+
+</html>

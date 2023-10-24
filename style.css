@@ -1,6 +1,5 @@
 body{
     background-color: pink;
 }
-submit{
-    color: blue;
+#submit{  background-color: red;
 }

@@ -7,6 +7,82 @@
     <meta name="description" content="Students can register for JEE exam from this website">
     <title>JEE Form</title>
      <link rel="stylesheet" href="style.css">
+    
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: pink;
+    }
+
+    #logo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        color: #333333;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333333;
+        margin-top: 30px;
+    }
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        /* display: block; */
+        margin-top: 20px;
+        color: #333333;
+    }
+
+    input[type="text"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+    }
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    select {
+        height: 40px;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    input[type="submit"] {
+        background-color: #333333;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+
 </head>
 
 <body>
@@ -69,7 +145,9 @@
 
     <div>
 
-        Select gender: 
+        Select gender:
+        <br>
+        <br>
         <label for="male">Male</label>
         <input type="radio" name="gender" id="male" value="Male" required>
     
@@ -77,6 +155,7 @@
         <input type="radio" name="gender" id="female" value="Female" required>
     </div>
 
+    <br>
     <br>
 
     <div>
